@@ -383,6 +383,11 @@ CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n
 This decouples RGB commands from external power rail control.  
 With this set to `n`, `RGB_ON/OFF` controls underglow state only, which is more reliable on some builds/hardware combinations.
 
+Quick behavior summary:
+
+- `CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=y` (default): `RGB_ON/OFF` can also toggle external power for LEDs. This can save more battery, but some setups may fail to re-enable LEDs cleanly until reset.
+- `CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n`: `RGB_ON/OFF` only changes underglow state/effect in software. This is usually more reliable for turning LEDs back on, with a small battery tradeoff compared to hard power-cut behavior.
+
 ### Change LED Data Pin
 
 To change the RGB LED data pin, edit:
