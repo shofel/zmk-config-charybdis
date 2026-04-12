@@ -1323,9 +1323,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.0em" style="font-size: 88%">&amp;rgb_loc</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">RGB_EFF</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 88%">&amp;rgb_loc</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">RGB_EFF</tspan>
 </text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 64%">&amp;rgb_loc R…</tspan></text>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1392,9 +1391,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.0em" style="font-size: 88%">&amp;rgb_loc</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">RGB_HUI</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 88%">&amp;rgb_loc</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">RGB_HUI</tspan>
 </text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 64%">&amp;rgb_loc R…</tspan></text>
 </g>
 <g transform="translate(812, 217)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
