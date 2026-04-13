@@ -89,7 +89,7 @@
       hold-trigger-on-release;
     };
 
-    // RGB controls routed to the event source side for split/dongle setups.
+    // RGB controls routed globally so split halves stay in sync.
     rgb_loc: rgbloc {
       compatible = "zmk,behavior-rgb-local";
       #binding-cells = <2>;
