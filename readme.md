@@ -52,6 +52,18 @@ This configuration supports two modes:
     - [Tester Pro Micro (GPIO Testing)](#tester-pro-micro-gpio-testing)
       - [For testing a Pro Micro-compatible board](#for-testing-a-pro-micro-compatible-board)
 
+## AliExpress Charybdis MK2 Compatibility
+
+This fork has been adapted for the **Charybdis 4x6 MK2** sold on AliExpress (e.g., Scorpio Store). The AliExpress PCB differs from the original BastardKB design in three ways:
+
+| Setting | Original BastardKB | AliExpress MK2 |
+|---------|-------------------|----------------|
+| Diode direction | `row2col` | `col2row` |
+| Row GPIO pull | No pull-down | `GPIO_PULL_DOWN` required |
+| Column pin order | Reversed between halves | Same order on both halves |
+
+If your keys don't work after flashing (trackball works but no key input), check these settings in `boards/shields/charybdis/charybdis.dtsi` and the left/right overlay files.
+
 ## BOM
 
 See the full [Bill of Materials](/docs/bom/readme.md) for electronics, PCBs, fabrication files (ready-to-upload gerbers for PCBWay/JLCPCB), and 3D print files.
